@@ -8,5 +8,6 @@ namespace Dominio.Interfaces
 {
     public  interface IUsuarios
     {
+        public Task<bool> AdicionaUsuario(string email, string senha, int idade, string celular);
     }
 }

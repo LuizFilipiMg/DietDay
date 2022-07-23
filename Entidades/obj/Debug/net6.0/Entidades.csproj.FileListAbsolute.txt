@@ -20,3 +20,4 @@ C:\Users\Luiz\source\repos\DietDay\Entidades\obj\Debug\net6.0\Entidades.csproj.C
 C:\Users\Luiz\source\repos\DietDay\Entidades\obj\Debug\net6.0\Entidades.dll
 C:\Users\Luiz\source\repos\DietDay\Entidades\obj\Debug\net6.0\ref\Entidades.dll
 C:\Users\Luiz\source\repos\DietDay\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\Luiz\source\repos\DietDay\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache

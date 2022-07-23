@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace InfraEstrutura.Repositorio
 {
-    public class UsuariosRepository//<T> where T : class
+    public class UsuariosRepository: IUsuarios
     {
         private readonly DbContextOptions<Contexto> _OptionsBuilder;
 
