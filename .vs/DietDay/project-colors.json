@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "376c562e-c78b-46e9-a306-0d3cff48dd6f": {
+      "ProjectGuid": "376c562e-c78b-46e9-a306-0d3cff48dd6f",
+      "DisplayName": "CloudHome",
+      "ColorIndex": 0
+    },
+    "270a30bd-58d4-4077-9172-8d72798e2609": {
+      "ProjectGuid": "270a30bd-58d4-4077-9172-8d72798e2609",
+      "DisplayName": "4 - InfraEstrutura",
+      "ColorIndex": 1
+    },
+    "f432c50e-e9dc-4ed9-9b84-3dde56d2fa0d": {
+      "ProjectGuid": "f432c50e-e9dc-4ed9-9b84-3dde56d2fa0d",
+      "DisplayName": "InfraEstrutura",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "3af12ccc-3873-45d9-912c-8b906af63353": {
+      "ProjectGuid": "3af12ccc-3873-45d9-912c-8b906af63353",
+      "DisplayName": "Entidades",
+      "ColorIndex": 3
+    },
+    "768dab9b-d19a-4f20-8bf6-e10f7c34939b": {
+      "ProjectGuid": "768dab9b-d19a-4f20-8bf6-e10f7c34939b",
+      "DisplayName": "Dominio",
+      "ColorIndex": 4
+    },
+    "8df43bd1-c564-4376-ab21-a2f8b61fb003": {
+      "ProjectGuid": "8df43bd1-c564-4376-ab21-a2f8b61fb003",
+      "DisplayName": "DietDay",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
