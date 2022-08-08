@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Enti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{768DAB9B-D19A-4F20-8BF6-E10F7C34939B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietDay", "DietDay\DietDay.csproj", "{8DF43BD1-C564-4376-AB21-A2F8B61FB003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DietDay", "DietDay\DietDay.csproj", "{8DF43BD1-C564-4376-AB21-A2F8B61FB003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

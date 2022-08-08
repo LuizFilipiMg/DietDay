@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "RcdJNKUSe7rBEPSbiux5Nt7NWhCmC4C0TeIEd2Ngz0SwKvgbzLmi9QB9SbnIC3d3E3gHIyIQ4auRe26hSPVCxA==",
+  "dgSpecHash": "VzoCdNaqUwnIyTci0JkquDRXna5/M9DCaOwFJ1C5AGrWQHsWuHO8rOY6ZNcxOAPw1JmUyeeOIRUpHbcqGK31nQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Luiz\\source\\repos\\DietDay\\DietDay\\DietDay.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\autofac\\4.9.2\\autofac.4.9.2.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\cleancodelabs.automapper.extensions.autofac.dependencyinjection\\3.2.0\\cleancodelabs.automapper.extensions.autofac.dependencyinjection.3.2.0.nupkg.sha512",
+    "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
