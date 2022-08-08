@@ -1,5 +1,4 @@
-﻿using Entidades;
-using Entidades.Models;
+﻿using Dominio.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +9,6 @@ namespace Dominio.Interfaces.InterfacesServico
 {
     public interface IServicoUsuarios
     {
-        Task AdicionaUsuarios(Usuarios usuarios);
+        Task AdicionaUsuarios(InputModelUsuarios input);
     }
 }

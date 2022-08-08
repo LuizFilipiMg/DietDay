@@ -1,9 +1,9 @@
+C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.csproj.AssemblyReference.cache
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.AssemblyInfoInputs.cache
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.AssemblyInfo.cs
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.csproj.CoreCompileInputs.cache
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.csproj.AssemblyReference.cache
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\appsettings.json
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\DietDay.exe
@@ -14,6 +14,7 @@ C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\ref\DietDay.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\DietDay.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Autofac.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\AutoMapper.Extensions.Autofac.DependencyInjection.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -54,8 +55,8 @@ C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\runtimes\win\lib\net
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Dominio.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Entidades.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\InfraEstrutura.dll
-C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\InfraEstrutura.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Dominio.pdb
+C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\InfraEstrutura.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Entidades.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\staticwebassets.build.json
@@ -66,4 +67,3 @@ C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\ref\DietDay.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.genruntimeconfig.cache
-C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

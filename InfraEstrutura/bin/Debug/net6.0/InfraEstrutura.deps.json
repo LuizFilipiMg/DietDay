@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "InfraEstrutura/1.0.0": {
         "dependencies": {
-          "Dominio": "1.0.0",
           "Entidades": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"
@@ -553,14 +552,6 @@
           }
         }
       },
-      "Dominio/1.0.0": {
-        "dependencies": {
-          "Entidades": "1.0.0"
-        },
-        "runtime": {
-          "Dominio.dll": {}
-        }
-      },
       "Entidades/1.0.0": {
         "dependencies": {
           "CleanCodeLabs.AutoMapper.Extensions.Autofac.DependencyInjection": "3.2.0"
@@ -940,11 +931,6 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
-    },
-    "Dominio/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Entidades/1.0.0": {
       "type": "project",

@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Dominio.Interfaces;
 using Dominio.Interfaces.InterfacesServico;
+using Dominio.Models;
 using Entidades;
-using Entidades.Models;
+using InfraEstrutura.InterfaceRepository;
+using InfraEstrutura.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,20 +15,20 @@ namespace Dominio.Servicos
 {
     public class ServicoUsuarios : IServicoUsuarios
     {
-        private readonly IUsuarios _IUsuarios;
-      //  private readonly IMapper _IMapper;
+       private readonly IUsuariosRepository _IUsuariosRepository;
+       private readonly IMapper _IMapper;
 
-        public ServicoUsuarios(IUsuarios IUsuarios)//, IMapper IMapper)
+        public ServicoUsuarios(IUsuariosRepository IUsuariosRepository, IMapper IMapper)
         {
-            _IUsuarios = IUsuarios;
-            //_IMapper = IMapper;
+            _IUsuariosRepository = IUsuariosRepository;
+            _IMapper = IMapper;
         }
 
-        public async Task AdicionaUsuarios(Usuarios usuarios)
-        {                   
+        public async Task AdicionaUsuarios(InputModelUsuarios inputUsuarios)
+        {
+            var usuarios = _IMapper.Map<Usuarios>(inputUsuarios);
             usuarios.DataHora = DateTime.Now;
-
-            await _IUsuarios.AdicionaUsuario(usuarios);
+            await _IUsuariosRepository.AdicionaUsuario(usuarios);
 
         }
 

@@ -1,10 +1,8 @@
-using AutoMapper;
-using Dominio.Interfaces;
 using Dominio.Interfaces.InterfacesServico;
+using Dominio.Mapping;
 using Dominio.Servicos;
-using Entidades;
-using Entidades.Mapping;
-using InfraEstrutura.Repositorio;
+using InfraEstrutura.InterfaceRepository;
+using InfraEstrutura.Repository;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(UsuariosProfile));
 builder.Services.AddScoped<IServicoUsuarios, ServicoUsuarios>();
-builder.Services.AddScoped<IUsuarios, UsuariosRepository>();
+builder.Services.AddScoped<IUsuariosRepository, UsuariosRepository>();
 
 
 var app = builder.Build();

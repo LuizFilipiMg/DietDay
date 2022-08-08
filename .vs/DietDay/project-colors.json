@@ -35,7 +35,12 @@
       "ProjectGuid": "8df43bd1-c564-4376-ab21-a2f8b61fb003",
       "DisplayName": "DietDay",
       "ColorIndex": 5
+    },
+    "8b23a04f-9714-43ed-ae8d-2cdecca9a81a": {
+      "ProjectGuid": "8b23a04f-9714-43ed-ae8d-2cdecca9a81a",
+      "DisplayName": "Aplicacao",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

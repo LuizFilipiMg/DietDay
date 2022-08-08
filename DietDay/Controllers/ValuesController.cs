@@ -1,10 +1,5 @@
-﻿using AutoMapper;
-using Dominio.Interfaces;
-using Dominio.Interfaces.InterfacesServico;
-using Dominio.Servicos;
-using Entidades;
-using Entidades.Models;
-using InfraEstrutura.Repositorio;
+﻿using Dominio.Interfaces.InterfacesServico;
+using Dominio.Models;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,14 +11,14 @@ namespace DietDay.Controllers
     public class ValuesController : ControllerBase
     {
       //  private IUsuarios _IUsuarios;
-        private IMapper _IMapper;
+       // private IMapper _IMapper;
         private IServicoUsuarios _IServicoUsuarios;
         // GET: api/<ValuesController>
 
-        public ValuesController(IServicoUsuarios IServicoUsuarios, IMapper IMapper)
+        public ValuesController(IServicoUsuarios IServicoUsuarios)
         {
           //  _IUsuarios = IUsuarios;
-            _IMapper = IMapper;
+          //  _IMapper = IMapper;
             _IServicoUsuarios = IServicoUsuarios;
         }
         
@@ -38,13 +33,7 @@ namespace DietDay.Controllers
                 Telefone = "31993441126"
             };
 
-            var usuarios = _IMapper.Map<Usuarios>(input);
-
-            //public int teste = 0;
-
-
-            var x =  _IServicoUsuarios.AdicionaUsuarios(usuarios);
-            
+            _IServicoUsuarios.AdicionaUsuarios(input);            
         }
 
         // POST api/<ValuesController>

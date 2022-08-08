@@ -741,19 +741,6 @@
           }
         }
       },
-      "Dominio/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Entidades": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Dominio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Dominio.dll": {}
-        }
-      },
       "Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2525,11 +2512,6 @@
         "version.txt"
       ]
     },
-    "Dominio/1.0.0": {
-      "type": "project",
-      "path": "../Dominio/Dominio.csproj",
-      "msbuildProject": "../Dominio/Dominio.csproj"
-    },
     "Entidades/1.0.0": {
       "type": "project",
       "path": "../Entidades/Entidades.csproj",
@@ -2538,7 +2520,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Dominio >= 1.0.0",
       "Entidades >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7"
@@ -2571,9 +2552,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Luiz\\source\\repos\\DietDay\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\Luiz\\source\\repos\\DietDay\\Dominio\\Dominio.csproj"
-            },
             "C:\\Users\\Luiz\\source\\repos\\DietDay\\Entidades\\Entidades.csproj": {
               "projectPath": "C:\\Users\\Luiz\\source\\repos\\DietDay\\Entidades\\Entidades.csproj"
             }

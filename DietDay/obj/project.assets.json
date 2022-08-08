@@ -720,7 +720,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Entidades": "1.0.0"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "InfraEstrutura": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Dominio.dll": {}
@@ -746,7 +747,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Dominio": "1.0.0",
           "Entidades": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"
@@ -2129,7 +2129,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "Dominio >= 1.0.0",
       "InfraEstrutura >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -2161,6 +2161,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Luiz\\source\\repos\\DietDay\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\Luiz\\source\\repos\\DietDay\\Dominio\\Dominio.csproj"
+            },
             "C:\\Users\\Luiz\\source\\repos\\DietDay\\InfraEstrutura\\InfraEstrutura.csproj": {
               "projectPath": "C:\\Users\\Luiz\\source\\repos\\DietDay\\InfraEstrutura\\InfraEstrutura.csproj"
             }
@@ -2177,10 +2180,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[11.0.0, )"
-          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

@@ -1,6 +1,5 @@
-﻿using Dominio.Interfaces;
-using Entidades;
-using Entidades.Models;
+﻿using Entidades;
+using InfraEstrutura.InterfaceRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Win32.SafeHandles;
 using System;
@@ -9,9 +8,9 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-namespace InfraEstrutura.Repositorio
+namespace InfraEstrutura.Repository
 {
-    public class UsuariosRepository: IUsuarios
+    public class UsuariosRepository: IUsuariosRepository
     {
         private readonly DbContextOptions<Contexto> _OptionsBuilder;
 
@@ -22,6 +21,7 @@ namespace InfraEstrutura.Repositorio
         
         public async Task<bool> AdicionaUsuario(Usuarios usuarios)
         {
+            
             try
             {
                 using (var data = new Contexto(_OptionsBuilder))

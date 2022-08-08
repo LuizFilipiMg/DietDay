@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "DietDay/1.0.0": {
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Dominio": "1.0.0",
           "InfraEstrutura": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -500,7 +500,8 @@
       },
       "Dominio/1.0.0": {
         "dependencies": {
-          "Entidades": "1.0.0"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "InfraEstrutura": "1.0.0"
         },
         "runtime": {
           "Dominio.dll": {}
@@ -516,7 +517,6 @@
       },
       "InfraEstrutura/1.0.0": {
         "dependencies": {
-          "Dominio": "1.0.0",
           "Entidades": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"

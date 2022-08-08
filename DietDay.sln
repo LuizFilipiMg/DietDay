@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DietDay", "DietDay\DietDay.csproj", "{8DF43BD1-C564-4376-AB21-A2F8B61FB003}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao", "Aplicacao\Aplicacao.csproj", "{8B23A04F-9714-43ED-AE8D-2CDECCA9A81A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{8DF43BD1-C564-4376-AB21-A2F8B61FB003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF43BD1-C564-4376-AB21-A2F8B61FB003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF43BD1-C564-4376-AB21-A2F8B61FB003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B23A04F-9714-43ED-AE8D-2CDECCA9A81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B23A04F-9714-43ED-AE8D-2CDECCA9A81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B23A04F-9714-43ED-AE8D-2CDECCA9A81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B23A04F-9714-43ED-AE8D-2CDECCA9A81A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{3AF12CCC-3873-45D9-912C-8B906AF63353} = {2069E656-EE3F-4C07-84A9-0190965DB519}
 		{768DAB9B-D19A-4F20-8BF6-E10F7C34939B} = {A43B18BF-2193-4D69-A25E-ECA08A66DDD8}
 		{8DF43BD1-C564-4376-AB21-A2F8B61FB003} = {FDE4C4C8-01FB-47BA-928F-6AE4D6B382BB}
+		{8B23A04F-9714-43ED-AE8D-2CDECCA9A81A} = {F3B65F5A-C2F9-43F3-8DFC-BCE1344EA034}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF2F6A91-B917-472E-A270-F0FADDF082DB}
