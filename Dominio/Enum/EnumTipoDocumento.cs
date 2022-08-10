@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades.Enum
+namespace Dominio.Enum
 {
     
     public enum EnumTipoDocumento
     {
         Identidade = 1,
-        CPF = 2
-        
+        CPF = 2        
     }
 
 }

@@ -1,5 +1,5 @@
 CREATE TABLE tblUsuarios (
- Id SMALLINT,
+ Id SMALLINT IDENTITY(1,1),
  Nome VARCHAR(40) NOT NULL,
  Email VARCHAR(60)NOT NULL,
  Telefone VARCHAR(60),
@@ -8,6 +8,7 @@ CREATE TABLE tblUsuarios (
  Documento VARCHAR(20),
  TipoDocumento SMALLINT,
  DataHora Smalldatetime,
- Ativo bit
+ Ativo bit,
+ Sexo bit
  CONSTRAINT pk_Id  PRIMARY KEY (Id)
  );

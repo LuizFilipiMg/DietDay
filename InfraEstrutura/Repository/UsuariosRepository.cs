@@ -18,7 +18,6 @@ namespace InfraEstrutura.Repository
         {
             _OptionsBuilder = new DbContextOptions<Contexto>();
         }
-        
         public async Task<bool> AdicionaUsuario(Usuarios usuarios)
         {
             
@@ -30,7 +29,7 @@ namespace InfraEstrutura.Repository
                     await data.SaveChangesAsync();
                 }
             }
-            catch (Exception)
+            catch (Exception error)
             {
                 return false;
             }

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "DietDay/1.0.0": {
         "dependencies": {
+          "Aplicacao": "1.0.0",
           "Dominio": "1.0.0",
           "InfraEstrutura": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -498,6 +499,14 @@
           }
         }
       },
+      "Aplicacao/1.0.0": {
+        "dependencies": {
+          "Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Aplicacao.dll": {}
+        }
+      },
       "Dominio/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
@@ -882,6 +891,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Aplicacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Dominio/1.0.0": {
       "type": "project",

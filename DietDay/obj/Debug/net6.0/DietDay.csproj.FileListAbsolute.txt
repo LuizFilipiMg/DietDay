@@ -58,7 +58,6 @@ C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\InfraEstrutura.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Dominio.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\InfraEstrutura.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Entidades.pdb
-C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\scopedcss\bundle\DietDay.styles.css
@@ -67,3 +66,6 @@ C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\ref\DietDay.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.genruntimeconfig.cache
+C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Aplicacao.dll
+C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Aplicacao.pdb
+C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.MvcApplicationPartsAssemblyInfo.cs

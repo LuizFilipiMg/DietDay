@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
+   
     public class Usuarios
     {
         public int Id { get; set; }
@@ -15,9 +16,10 @@ namespace Entidades
         public string Ddd { get; set; }
         public string Senha { get; set; }
         public string Documento { get; set; }
-        public int TipoDocumento { get; set; }
+        public  Int16 TipoDocumento { get; set; }
         public DateTime DataHora { get; set; }
         public bool Ativo { get; set; }
+        public Int16 Sexo { get; set; }   
 
     }
 }

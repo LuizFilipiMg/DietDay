@@ -1,3 +1,5 @@
+using Aplicacao;
+using Aplicacao.Interfaces;
 using Dominio.Interfaces.InterfacesServico;
 using Dominio.Mapping;
 using Dominio.Servicos;
@@ -16,6 +18,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(UsuariosProfile));
 builder.Services.AddScoped<IServicoUsuarios, ServicoUsuarios>();
 builder.Services.AddScoped<IUsuariosRepository, UsuariosRepository>();
+builder.Services.AddScoped<IAplicacaoUsuario, AplicacaoUsuario>();
 
 
 var app = builder.Build();

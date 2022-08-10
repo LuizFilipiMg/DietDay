@@ -1,6 +1,9 @@
-﻿using Dominio.Interfaces.InterfacesServico;
+﻿using Aplicacao;
+using Aplicacao.Interfaces;
+using Dominio.Interfaces.InterfacesServico;
 using Dominio.Models;
 using Microsoft.AspNetCore.Mvc;
+using Dominio.Enum;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,18 +11,15 @@ namespace DietDay.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class CadastrarUsuarioController : ControllerBase
     {
-      //  private IUsuarios _IUsuarios;
-       // private IMapper _IMapper;
-        private IServicoUsuarios _IServicoUsuarios;
-        // GET: api/<ValuesController>
+        private IAplicacaoUsuario _IAplicacaoUsuario;        
 
-        public ValuesController(IServicoUsuarios IServicoUsuarios)
+        public CadastrarUsuarioController(IAplicacaoUsuario IAplicacaoUsuario)
         {
-          //  _IUsuarios = IUsuarios;
-          //  _IMapper = IMapper;
-            _IServicoUsuarios = IServicoUsuarios;
+            //  _IUsuarios = IUsuarios;
+            //  _IMapper = IMapper;
+            _IAplicacaoUsuario = IAplicacaoUsuario;
         }
         
         [HttpGet("{id}")]
@@ -30,10 +30,16 @@ namespace DietDay.Controllers
                 Nome = "Luiz",
                 Ddd = "031",
                 Email = "filipimg@outlook.com",
-                Telefone = "31993441126"
+                Telefone = "31993441126",
+                Ativo = true,
+                DataHora = DateTime.Now,
+                Sexo = EnumSexo.Masculino,
+                Documento = "44545454",
+                TipoDocumento = EnumTipoDocumento.Identidade,
+                Senha= "12345"
             };
 
-            _IServicoUsuarios.AdicionaUsuarios(input);            
+            _IAplicacaoUsuario.AdicionaUsuarios(input);            
         }
 
         // POST api/<ValuesController>

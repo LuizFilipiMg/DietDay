@@ -716,6 +716,19 @@
           }
         }
       },
+      "Aplicacao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Aplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aplicacao.dll": {}
+        }
+      },
       "Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2111,6 +2124,11 @@
         "version.txt"
       ]
     },
+    "Aplicacao/1.0.0": {
+      "type": "project",
+      "path": "../Aplicacao/Aplicacao.csproj",
+      "msbuildProject": "../Aplicacao/Aplicacao.csproj"
+    },
     "Dominio/1.0.0": {
       "type": "project",
       "path": "../Dominio/Dominio.csproj",
@@ -2129,6 +2147,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Aplicacao >= 1.0.0",
       "Dominio >= 1.0.0",
       "InfraEstrutura >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2161,6 +2180,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Luiz\\source\\repos\\DietDay\\Aplicacao\\Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\Luiz\\source\\repos\\DietDay\\Aplicacao\\Aplicacao.csproj"
+            },
             "C:\\Users\\Luiz\\source\\repos\\DietDay\\Dominio\\Dominio.csproj": {
               "projectPath": "C:\\Users\\Luiz\\source\\repos\\DietDay\\Dominio\\Dominio.csproj"
             },
