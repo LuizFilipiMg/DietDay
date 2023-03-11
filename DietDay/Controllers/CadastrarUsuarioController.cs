@@ -25,6 +25,8 @@ namespace DietDay.Controllers
         [HttpGet("{id}")]
         public void Get(int id)
         {
+
+            throw new Exception("teste");
             var input = new InputModelUsuarios
             {
                 Nome = "Luiz",

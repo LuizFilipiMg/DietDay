@@ -2,6 +2,7 @@ using Aplicacao;
 using Aplicacao.Interfaces;
 using Dominio.Interfaces.InterfacesServico;
 using Dominio.Mapping;
+using Dominio.Middleware;
 using Dominio.Servicos;
 using InfraEstrutura.InterfaceRepository;
 using InfraEstrutura.Repository;
@@ -12,6 +13,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -22,7 +25,7 @@ builder.Services.AddScoped<IAplicacaoUsuario, AplicacaoUsuario>();
 
 
 var app = builder.Build();
-
+app.UseMiddleware(typeof(ErrorMiddleware));
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

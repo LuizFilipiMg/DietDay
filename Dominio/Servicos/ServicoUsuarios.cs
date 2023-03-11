@@ -15,8 +15,8 @@ namespace Dominio.Servicos
 {
     public class ServicoUsuarios : IServicoUsuarios
     {
-       private readonly IUsuariosRepository _IUsuariosRepository;
-       private readonly IMapper _IMapper;
+        private readonly IUsuariosRepository _IUsuariosRepository;
+        private readonly IMapper _IMapper;
 
         public ServicoUsuarios(IUsuariosRepository IUsuariosRepository, IMapper IMapper)
         {
@@ -24,11 +24,18 @@ namespace Dominio.Servicos
             _IMapper = IMapper;
         }
 
-        public async Task AdicionaUsuarios(InputModelUsuarios inputUsuarios)
+        public async  Task AdicionaUsuarios(InputModelUsuarios inputUsuarios)
         {
-            var usuarios = _IMapper.Map<Usuarios>(inputUsuarios);
-            usuarios.DataHora = DateTime.Now;
-            await _IUsuariosRepository.AdicionaUsuario(usuarios);
+            try
+            {
+                var usuarios = _IMapper.Map<Usuarios>(inputUsuarios);
+                usuarios.DataHora = DateTime.Now;
+                await _IUsuariosRepository.AdicionaUsuario(usuarios);
+            }
+            catch (Exception error)
+            {
+
+            }
 
         }
 

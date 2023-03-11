@@ -69,3 +69,4 @@ C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.genruntimeco
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Aplicacao.dll
 C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Aplicacao.pdb
 C:\Users\Luiz\source\repos\DietDay\DietDay\obj\Debug\net6.0\DietDay.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luiz\source\repos\DietDay\DietDay\bin\Debug\net6.0\Newtonsoft.Json.dll
